@@ -13,14 +13,26 @@ const aboutBtn = document.querySelector('#about-btn');
 
 
 homeBtn.addEventListener('click', () => {
+    // Wipes out all current content to display new content
+    // possible but less performant: contentBox.innerHTML = '';
+    contentBox.replaceChildren();
+
     displayHome(contentBox);
 });
 
 menuBtn.addEventListener('click', () => {
+    // Wipes out all current content to display new content
+    // possible but less performant: contentBox.innerHTML = '';
+    contentBox.replaceChildren();
+
     displayMenu(contentBox);
 });
 
 aboutBtn.addEventListener('click', () => {
+    // Wipes out all current content to display new content
+    // possible but less performant: contentBox.innerHTML = '';
+    contentBox.replaceChildren();
+
     displayAbout(contentBox);
 });
 
