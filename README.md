@@ -36,6 +36,6 @@ We then can host the website locally from those bundled html and js files
 Builds the app in development mode and hosts it locally (usually at http://localhost:8080). Whenever we make a change, it will automatically run 'npx webpack' behind the scene and host the website from the latest bundle.
 
 ```bash
-npx webpack
+npx webpack serve
 ```
 
