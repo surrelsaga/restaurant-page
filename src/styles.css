@@ -27,7 +27,7 @@ button:hover {
     color: white;
 }
 
-h1, p {
+h1, h2, p {
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -61,4 +61,16 @@ h1, p {
 #menu-page #duck-section {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+}
+
+
+/* About page */
+#about-page {
+    text-align: center;
+}
+
+#about-page > h2 > a {
+    background-color: #F2F2F2;
+    padding: 8px 12px;
+    border-radius: 10px;
 }
