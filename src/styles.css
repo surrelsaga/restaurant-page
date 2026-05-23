@@ -27,11 +27,38 @@ button:hover {
     color: white;
 }
 
+h1, p {
+    font-family:'Courier New', Courier, monospace;
+}
+
 /* Home page */
 #home-page {
     text-align: center;
 }
 
-#home-page h1, p {
-    font-family:'Courier New', Courier, monospace;
+/* Menu page */
+/* Bit revision of display grid :) */
+#menu-page {
+    text-align: center;
+    display: grid;
+    grid-template: auto 1fr / 1fr 1fr 1fr;
+}
+
+#menu-page h1{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+#menu-page #beef-section {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#menu-page #chicken-section {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#menu-page #duck-section {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
 }
