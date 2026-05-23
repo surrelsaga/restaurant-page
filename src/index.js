@@ -36,6 +36,9 @@ aboutBtn.addEventListener('click', () => {
     displayAbout(contentBox);
 });
 
+// By default, always display the home page
+displayHome(contentBox);
+
 
 
 
